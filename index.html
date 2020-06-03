@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Faiz Portfolio</title>
+	<link rel="stylesheet" href="jquery.pagepiling.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" href="style.css">
+</head>
+<body>
+	<div id="pagepiling">
+		<div class="section home-area" id="home">
+			<div class="wrapper">
+				<nav>
+					<ul id="menu">
+						<li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+						<li data-menuanchor="about" class="active"><a href="#about">About</a></li>
+				        <li data-menuanchor="port" class="active"><a href="#skill">Skill</a></li>
+				        <li data-menuanchor="gallery" class="active"><a href="#gallery">Gallery</a></li>
+				        <li data-menuanchor="contact" class="active"><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+
+
+				<div class="banner-area">
+					<h2>Hello!<br>My Name is <br>Faiz Azman</h2>
+					<p>Student - Designer</p>
+					<P>"Don't stop when you're tired, Stop when you're done"</p>
+				</div>
+			</div>
+			
+		</div>
+			<div class="section about-area" id="about">
+					<div class="wrapper">
+					<h3>About Me</h3>
+					<p>Hello my name is Muhammad Faiz bin Khairul Azman,<br> I am 21 years old.I was born in Negeri Sembilan.<br>I was continue my studies in Diploma of <br>Information Management in Universiti Teknologi Mara <br>kampus Rembau, Negeri Sembilan.</p>
+					<p>I have 5 siblings and i am the second from five siblings.<br>I am love to do a design from adobe software since secondary school.<br>I love anything that related to art and design. </p>
+					
+					</div>
+
+					<ul class="socialIcons">
+						<li class="facebook"><a href="https://www.facebook.com/aiz.azman"><i class="fa fa-fw fa-facebook"></i></a></li>
+						<li class="instagram"><a href="https://www.instagram.com/iizz.khzm/?hl=en"><i class="fa fa-fw fa-instagram"></i></a></li>
+						<li class="pinterest"><a href="https://www.pinterest.com/"><i class="fa fa-fw fa-pinterest"></i></a></li>
+						<li class="github"><a href="https://github.com/search?q=mfxi"><i class="fa fa-fw fa-github"></i></a></li>
+					</ul>
+			</div>
+				<div class="section skill-area" id="skill">
+					<div class="wrapper">
+					<h3>My Skill</h3>
+					<p>I love to design something to show my idea into artwork.<br>So that, i have a few knowledge in using a software <br>such as. Adobe Photoshop, Abode Lightroom,<br> Adobe illustrater and many more.</p>
+					<p>Other that, i also love to drawing and <br>
+					sketching, it is my hobbies since my <br>elementary school.</p>
+					</div>
+				</div>
+				<div class="section gallery-area" id="gallery">
+					<div class="wrapper">
+					<h3>My Gallery</h3>
+					<p>This is a few of my project in <br>editing by using Adobe Photoshop,<br> Adobe Illustrater,Lightroom and<br> many more.
+					</div>
+				</div>
+				
+					<div class="section contact-area" id="contact">
+					<div class="wrapper">
+					<h3>Contact</h3>
+					<p><input type="text" placeholder="Enter Your Name"></p>
+					<p><input type="email" placeholder="Enter Your Email"></p>
+					<p><textarea cols="30" rows="10" placeholder="Enter Your Message"></textarea></p>
+					<p><input type="submit" value="submit"></p>
+				
+				</div>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="jquery.pagepiling.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		$('#pagepiling').pagepiling({
+			sectionsColor: ['#666547', '#4f98cd', '#143a62', '#a22d4e', '#2e2e2e'],
+			anchors: ['home', 'about', 'skill','gallery', 'contact'],
+    		menu: '#myMenu'});
+        });
+</script>
+</body>
+</html>

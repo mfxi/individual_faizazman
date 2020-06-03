@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Permanent+Marker&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h3{
+	color: #000000;
+	font-size: 70px;
+	font-family: 'Permanent Marker', cursive;
+	margin:0;
+	text-shadow: 2px 2px #FFFFFF;	
+}
+
+p{
+	font-family:'Roboto Mono', monospace;
+	font-size: 23px;
+	line-height: 27px;
+	color: #fff;
+	text-align:justify;
+}
+
+nav{
+	position: absolute;
+	top: 0;
+	height: 50px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 15px 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #DAA520;
+	font-family: 'Press Start 2P', cursive;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px #FFFFFF;
+	
+}
+
+.about-area{
+	background-image: url(me.png);
+	background-size: 800px;
+	background-position:right bottom;
+	background-repeat: no-repeat;
+}
+
+ul.socialIcons{
+	padding: 0;
+	text-align:center;
+}
+
+.socialIcons li{
+	background-color: yellow;
+	list-style: none;
+	display: inline-block;
+	margin: 4px;
+	border-radius:2em;
+}
+
+.socialIcons li a{
+	display: block;
+	padding: .5em;
+	width: 1.28571429em;
+	height: 1.28571429em;
+	color: #fff;
+}
+
+.socialIcons .facebook{
+	background-color: #3b5998;
+	box-shadow: 0 0 16px #3b5998;
+}
+
+.socialIcons .instagram{
+	background-color: #dd2a7b;
+	box-shadow: 0 0 16px #dd2a7b;
+}
+
+.socialIcons .pinterest{
+	background-color: #c8232c;
+	box-shadow: 0 0 16px #c8232c;
+}
+
+.socialIcons .github{
+	background-color: #211f1f;
+	box-shadow: 0 0 16px #211f1f;
+}
+
+.gallery-area{
+	background-image: url(gallery.jpg);
+	background-size: 900px;
+	background-position:right center;
+	background-repeat: no-repeat;
+}	
+
+.home-area{
+	background-image: url(back.jpg); 
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.home-area h2{
+	color: #DAA520;
+	font-size: 120px;
+	font-family: 'Lobster', cursive;
+	margin: 0;
+	text-shadow: 2px 2px #FFFFFF;
+}
+
+.wrapper{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.banner-area p{
+	padding: 0 60% 0 0;
+
+}
+
+.contact-area input [type=text], .contact-area input [type=email]{
+	width: 50%;
+	height:40%;
+	padding: 0 20px;
+}
+
+.contact-area textarea{
+	width: 50%;
+	padding: 10px 20px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.skill-area{
+	background-image: url(3.png);
+	background-size: 900px;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+.contact-area{
+	background-image: url(1.png);
+	background-size: 800px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
